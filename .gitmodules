@@ -1,0 +1,9 @@
+[submodule "pyzmq-openwrt"]
+	path = pyzmq-openwrt
+	url = https://github.com/ASMfreaK/pyzmq-openwrt
+[submodule "bsb_io"]
+	path = bsb_io
+	url = https://github.com/ASMfreaK/bsb_io
+[submodule "luabsb_io"]
+	path = luabsb_io
+	url = https://github.com/ASMfreaK/luabsb_io
