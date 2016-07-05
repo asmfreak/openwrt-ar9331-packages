@@ -1,5 +1,5 @@
 [submodule "pyzmq-openwrt"]
-	path = pyzmq-openwrt
+	path = pyzmq
 	url = https://github.com/ASMfreaK/pyzmq-openwrt
 [submodule "bsb_io"]
 	path = bsb_io
