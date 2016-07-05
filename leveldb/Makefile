@@ -19,6 +19,7 @@ include $(INCLUDE_DIR)/package.mk
 define Package/leveldb
   DEPENDS:=+snappy
   SECTION:=libs
+  CATEGORY:=Libraries
   SUBMENU:=database
   TITLE:=A fast and lightweight key/value database library
   URL:=https://github.com/google/leveldb.git

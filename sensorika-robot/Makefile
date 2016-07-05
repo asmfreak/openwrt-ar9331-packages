@@ -13,7 +13,7 @@ PKG_BUILD_DIR:=$(BUILD_DIR)/sensorika-robot-$(PKG_VERSION)
 PKG_BUILD_DEPENDS:=python
 include $(INCLUDE_DIR)/package.mk
 $(call include_mk, python-package.mk)
-define Package/plyvel
+define Package/sensorika-robot
   SUBMENU:=Python
   SECTION:=lang
   CATEGORY:=Languages
