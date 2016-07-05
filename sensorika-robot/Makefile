@@ -19,7 +19,7 @@ define Package/sensorika-robot
   CATEGORY:=Languages
   TITLE:=sensorika-robot
   URL:=http://github.com/kkirsanov/sensorika-robot
-  DEPENDS:=+python +plyvel
+  DEPENDS:=+python +plyvel +pyzmq
 endef
 
 define Package/sensorika-robot/description
