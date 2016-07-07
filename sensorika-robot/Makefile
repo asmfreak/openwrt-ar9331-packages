@@ -33,7 +33,7 @@ endef
 define Package/sensorika-robot/install
 	$(INSTALL_DIR) $(1)$(PYTHON_PKG_DIR)
 	$(CP) \
-		$(PKG_INSTALL_DIR)$(PYTHON_PKG_DIR)/* \
+		$(PKG_INSTALL_DIR)$(PYTHON_PKG_DIR)/. \
 		$(1)$(PYTHON_PKG_DIR)
 endef
 

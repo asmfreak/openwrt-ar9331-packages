@@ -1,0 +1,10 @@
+--- a/db/db_iter.cc
++++ b/db/db_iter.cc
+@@ -13,6 +13,7 @@
+ #include "util/logging.h"
+ #include "util/mutexlock.h"
+ #include "util/random.h"
++#include <sys/types.h> // for ssize_t
+ 
+ namespace leveldb {
+ 
