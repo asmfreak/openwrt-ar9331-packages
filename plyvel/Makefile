@@ -15,7 +15,7 @@ define Package/plyvel
   CATEGORY:=Languages
   TITLE:=plyvel
   URL:=http://pypi.python.org/pypi/plyvel/
-  DEPENDS:=+python +librt +libstdcpp +leveldb
+  DEPENDS:=+python +python-setuptools +librt +libstdcpp +leveldb
 endef
 
 define Package/plyvel/description
